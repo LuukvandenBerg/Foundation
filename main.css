@@ -1,0 +1,60 @@
+/* testing */
+
+
+/* real css */
+
+.large-6 h2{
+	margin-top: 20px;
+	font-family: custom;
+}
+
+.large-6:hover {
+	color: white;
+	background-color: #303036;
+}
+
+@font-face { 
+	font-family: custom; 
+	src: url('font/Ghostlight-Bold.ttf'); 
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #303036;
+	font-family: custom;
+}
+
+iframe {
+	width: 560px;
+	height: 315px;
+}
+
+#site-header {
+	text-align: center;
+	font-family: custom;
+}
+
+.columns {
+	min-height: 100px;
+	background-color: #FFFAFF;
+	border-bottom: 1px solid black;
+	font-family: custom;
+}
+
+header#site-header {
+	margin-bottom: 20px;
+	padding: 20px;
+	font-family: custom;
+}
+
+.wrapper {
+	margin-bottom: 20px;
+	font-family: custom;
+}
+
+hr {
+	color: #303036;
+	width: 75%;
+}
